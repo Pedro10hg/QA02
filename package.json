@@ -1,0 +1,23 @@
+{
+  "name": "qa02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvictorf/QA02.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvictorf/QA02/issues"
+  },
+  "homepage": "https://github.com/jvictorf/QA02#readme",
+  "dependencies": {
+    "tap-spec": "^5.0.0",
+    "tape": "^5.6.1"
+  }
+}
